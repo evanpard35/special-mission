@@ -1,0 +1,28 @@
+GET http://localhost:5001/users
+
+###
+GET http://localhost:5001/users/1
+
+###
+POST  http://localhost:5001/users
+Content-Type: application/json
+
+{
+    "nim": "120801003",
+    "name": "Jhon Doe",
+    "kelas": "TIGanjil"
+}
+
+###
+PATCH   http://localhost:5001/users/1
+Content-Type: application/json
+
+{
+    "nim": "120801005",
+    "name": "Jefri chen",
+    "kelas": "TIGenap"
+}
+
+###
+DELETE http://localhost:5001/users/2
+

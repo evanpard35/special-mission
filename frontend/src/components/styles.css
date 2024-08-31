@@ -1,0 +1,86 @@
+/* styles.css */
+
+/* General Styles */
+body {
+    height: 100%;
+    width: 100%;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #62108b, #4e0750);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Container */
+.columns {
+    justify-content: center;
+    align-items: flex-start; /* Atur jika perlu */
+    min-height: 100vh; /* Menyediakan setidaknya tinggi viewport penuh */
+    padding: 20px; 
+}
+
+/* Column */
+.column {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+/* Title */
+.title {
+    margin-bottom: 20px;
+    color: #333333;
+}
+
+/* Table */
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table th,
+.table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #dddddd;
+}
+
+.table th {
+    background-color: #f8f8f8;
+    color: #333333;
+}
+
+/* Buttons */
+.button {
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.button.is-success {
+    background-color: #28a745;
+    color: #ffffff;
+}
+
+.button.is-info {
+    border: none;
+    width: 25px; /* Atur lebar tombol */
+    height: 25px; /* Atur tinggi tombol */
+    border-radius: 50%; /* Sudut bulat penuh */
+    padding: 0; /* Hapus padding untuk tombol lingkaran */
+    font-size: 9px; /* Ukuran font jika diperlukan */
+    background-color: #17a2b8;
+    color: #ffffff;
+}
+
+.delete.is-medium {
+    background-color: #dc3545;
+    color: #ffffff;
+}
+
+.button:hover {
+    opacity: 0.9;
+}
